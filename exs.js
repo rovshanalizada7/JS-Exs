@@ -2,12 +2,12 @@
 // Ədədin müsbət, mənfi və ya sıfır olmasını müəyyən edən
 //  if-else if-else konstruksiyasını yaradın
 
-// let x = 5
+// let x = +prompt ("Enter a number")
 
 // if (x > 0) {
-//     console.log("plus");
+//     console.log("positive");
 // } else if (x < 0) {
-//     console.log("minus");
+//     console.log("negative");
 // } else if (x == 0) {
 //     console.log("zero");
 // }
@@ -24,7 +24,7 @@
 //  (admin, istifadəçi, qonaq) əsaslanan müxtəlif mesajları
 //  qaytaran keçid-case strukturunu yazın.
 
-// let x = "admin"
+// let x = prompt ('Who is there?')
 
 // switch (x) {
 //     case "admin":
@@ -51,7 +51,7 @@
 
 // Ternary operatoruna aid sual
 
-// let n = 3
+// let n = + prompt("Enter a number")
 
 // if (n%2==0) {
 //     console.log("cut reqem");
@@ -69,7 +69,7 @@
 // Ədədin müsbət və ya mənfi olmasını təyin edən ternary 
 //  operatordan istifadə edərək ifadə yazın.
 
-// n=-3
+// n= + prompt("Enter a number")
 
 // let result = (n>0)? console.log("musbet"):console.log("menfi");
 
@@ -109,7 +109,7 @@
 // Ədədin 5-dən böyük və 10-dan kiçik olmasını yoxlayan ifadə yazın.
 
 
-// let n = 8; 
+// let n = +prompt ('Enter a number?'); 
 
 // if (n>5 && n<10) {
 //     console.log('The number is betwwen 5 and 10');
@@ -141,8 +141,8 @@
 // 10)
 // Hər iki şərtin doğru olub olmadığını yoxlayan && ifadəsi yaradın.
 
-// let name = "Rovshan";
-// let surname = "Alizada";
+// let name = prompt("what is your name?");
+// let surname = prompt("what is your surname?");
 
 // if (name == "Rovshan" && surname == "Alizada") {
 //     console.log('Correct!');
@@ -156,8 +156,8 @@
 // İki şərtdən ən azı birinin doğru olub olmadığını yoxlayan 
 // ||. ifadə yaratmaq.
 
-// let word = "worng word"
-// let password =  124
+// let word = prompt("secret word?")
+// let password = +prompt ("password?")
 
 // if ( word == "key" || password == 124 ) {
 //     console.log('welcome');
@@ -169,9 +169,9 @@
 
 // 12) Ədədin həm müsbət, həm də cüt olmasını yoxlayan ifadə yazın.
 
-// let n = 8;
+// let n = +prompt ('Enter a number');
 
-// if ( n>0 && n%2 == 0) {
+// if ( n>0 && n%2 == 0) {3
 //     console.log("musbet ve cutdur");
 // }else {
 //     console.log('musbet ve ya cut deyil');
@@ -183,8 +183,8 @@
 // 13)
 // İstifadəçi adı və parolun hər ikisinin etibarlı olub olmadığını yoxlayan if-else strukturunu yazın.
 
-// let user ="Rovshan";
-// let password = 777;
+// let user = prompt("What is your username?");
+// let password = +prompt("What is your password?");
 
 // if (user === "Rovshan" && password === 777) {
 //     console.log("right person");
