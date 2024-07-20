@@ -199,13 +199,13 @@
 // 14)
 // Ədədin mənfi və ya sıfır olduğunu yoxlayan və müvafiq olaraq mesajı qaytaran switch-case konstruksiyasını yazın.
 
-// let a=-1;
+// let n =-1;
 
-// switch (a) {
-//     case n=-1:
+// switch (true) {
+//     case (n<0):
 //         console.log('negative');
 //         break;
-//     case n=0:
+//     case n===0:
 //         console.log('zero');
 //         break;
 //     default:
